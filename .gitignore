@@ -2,6 +2,7 @@
 # .gitignore — keep secrets, caches, and artifacts out of version control
 .env              # NEVER commit secrets
 .venv/            # virtual environment — recreated from requirements.txt
+.venv
 __pycache__/      # Python cache — not source code
 *.pyc             # compiled Python bytecode
 .pytest_cache/    # pytest temporary files

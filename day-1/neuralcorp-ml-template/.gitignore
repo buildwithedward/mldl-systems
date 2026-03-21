@@ -9,3 +9,4 @@ models/*.pkl      # large model artifacts — version with DVC instead
 data/raw/*        # raw data — too large for Git
 dist/             # build outputs
 *.egg-info/
+.venv
