@@ -1,4 +1,12 @@
-.env
-.venv/
 .idea/
-__pycache__/
+# .gitignore — keep secrets, caches, and artifacts out of version control
+.env              # NEVER commit secrets
+.venv/            # virtual environment — recreated from requirements.txt
+__pycache__/      # Python cache — not source code
+*.pyc             # compiled Python bytecode
+.pytest_cache/    # pytest temporary files
+.ipynb_checkpoints/  # Jupyter auto-save files
+models/*.pkl      # large model artifacts — version with DVC instead
+data/raw/*        # raw data — too large for Git
+dist/             # build outputs
+*.egg-info/       # Python package metadata
