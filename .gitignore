@@ -1,6 +1,6 @@
 .idea/
 # .gitignore — keep secrets, caches, and artifacts out of version control
-data/raw/*        # raw data — too large for Git
+day-*/data/raw/*        # raw data — too large for Git
 day-*/.venv/  # virtual environments in day-* directories
 day-*/.venv
 day-*/__pycache__/  # cache in day-* directories
