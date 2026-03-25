@@ -1,7 +1,0 @@
-2026-03-22 10:00:01 | INFO  | Training started | model=baseline_v1
-2026-03-22 10:00:02 | INFO  | Epoch 1/10 | loss=1.0000 | acc=0.45
-2026-03-22 10:00:03 | INFO  | Epoch 2/10 | loss=0.8200 | acc=0.58
-2026-03-22 10:00:04 | ERROR | NaN loss detected at epoch 3 — stopping early
-2026-03-22 10:01:00 | INFO  | Epoch 5/10 | loss=0.5300 | acc=0.72
-2026-03-22 10:03:00 | WARNING | GPU memory at 92% — consider reducing batch size
-2026-03-22 10:07:01 | INFO  | Training complete | best_acc=0.85
