@@ -11,3 +11,4 @@ day-*/dist/  # build outputs in day-* directories
 day-*/.egg-info/  # package metaday in day-* directories
 day-*/.env  # environment files in day-* directories
 day-*/.pyc  # compiled Python bytecode in day-* directories
+Makefile
