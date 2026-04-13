@@ -22,3 +22,6 @@ __pycache__/
 # Environment
 .env
 *.pkl
+
+# vscode settings
+.vscode
